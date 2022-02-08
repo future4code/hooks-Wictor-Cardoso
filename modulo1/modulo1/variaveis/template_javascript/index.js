@@ -45,9 +45,8 @@ console.log("Está em casa hoje?", primeiraResposta,", Gosta de refrigerante?", 
 
 let a = 10
 let b = 25
-let c = a
+c = a
 a = b
 b = c
-c = a
 console.log("O novo valor de a é", a, "o novo valor de b é", b) // O novo valor de a é 25 e de b é 10
 // O novo valor de a é 25 o novo valor de b é 10
