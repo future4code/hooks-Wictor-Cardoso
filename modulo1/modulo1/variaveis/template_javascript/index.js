@@ -22,15 +22,15 @@ let recebimentoPorDia = prompt("Quanto você recebe por dia?")
 alert(`Voce recebe ${recebimentoPorDia/horasTrabalhadas} por hora`)*/
 
 
-const meuNome = "Wictor"
-const minhaIdade = 28
+const meuNome = prompt ("Digite Wictor")
+const minhaIdade = prompt ("Digite 28")
 console.log(typeof meuNome, typeof minhaIdade)
-// string undefined foram o tipos impressos, string por o meuNome conter aspas duplas,já o minhaIdade retornou um número por entender que se tarta de um número.
+// string string foram minhas respostas, devido as aspas duplas que existe no comando prompt internamente.
 
 const meuNome = prompt ("Digite Wictor")
 const minhaIdade = prompt ("Digite 28")
 console.log(typeof meuNome, typeof minhaIdade)
-// string string foram minhas respostas, devido as aspas duplas.
+// Não vi alteração, continua sendo string e string 
 
 const meuNome = prompt ("Digite seu nome")
 const minhaIdade = prompt ("Digite sua idade")
