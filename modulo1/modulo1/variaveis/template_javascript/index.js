@@ -19,7 +19,7 @@ console.log(a, b, c) =  10, 10, 10
 
 let horasTrabalhadas = prompt("Quantas horas você trabalha por dia?")
 let recebimentoPorDia = prompt("Quanto você recebe por dia?")
-alert(`Voce recebe ${horasTrabalhadas/recebimentoPorDia} por hora`)*/
+alert(`Voce recebe ${recebimentoPorDia/horasTrabalhadas} por hora`)*/
 
 
 const meuNome = "Wictor"
