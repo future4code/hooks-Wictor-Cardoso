@@ -1,26 +1,25 @@
+// Exercícios de interpretação de código
+// 1.
 /* let a = 10
 let b = 10
-
 console.log(b)      =   10
-
 b = 5
 console.log(a, b)   =   10, 5
 
-
-
+2.
 let a = 10
 let b = 20
 c = a
 b = c
 a = b
-
 console.log(a, b, c) =  10, 10, 10
 
-
+3.
 let horasTrabalhadas = prompt("Quantas horas você trabalha por dia?")
 let recebimentoPorDia = prompt("Quanto você recebe por dia?")
 alert(`Voce recebe ${recebimentoPorDia/horasTrabalhadas} por hora`)*/
 
+// Exercícios de escrita de código
 //1. a), b), c), d)
 let meuNome 
 let minhaIdade 
