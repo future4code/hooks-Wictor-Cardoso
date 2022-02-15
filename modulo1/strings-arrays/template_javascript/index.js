@@ -39,13 +39,48 @@ console.log(`O e-mail ${emailDoUsuario} foi cadastrado com sucesso. Seja bem vin
     
     // b) Imprima no console a mensagem "Essas são as minhas comidas preferidas: ", seguida por cada uma das comidas, **uma embaixo da outra**.
     
-    // c) Aqui vai um desafio: pergunte ao usuário uma comida preferida. Troque a segunda comida da sua lista pela inserida pelo usuário. Imprima no consolea nova lista
+    // c) Aqui vai um desafio: pergunte ao usuário uma comida preferida. Troque a segunda comida da sua lista pela inserida pelo usuário. Imprima no console a nova lista
 
 const comidasPreferidas = ['Batata frita', 'Arroz', 'Carne', 'Feijão', 'Macarrão']
 console.log(comidasPreferidas)
-console.log(`Essas são as minhas comidas preferidas: ${comidasPreferidas}(length)`)
+console.log(`Essas são as minhas comidas preferidas:
+${comidasPreferidas[0]}
+${comidasPreferidas[1]}
+${comidasPreferidas[2]}
+${comidasPreferidas[3]}
+${comidasPreferidas[4]}`)
 
 const usuarioComida = prompt('Qual a sua comida preferida?')
 let i = 1
 comidasPreferidas[i] = usuarioComida
 console.log(comidasPreferidas)
+
+// 3. Faça um programa, seguindo os passos:
+    
+    // a) Crie um array vazio e guarde-o em uma variável, chamada `listaDeTarefas`
+    
+    // b) Pergunte ao usuário 3 tarefas que ele precise realizar no dia e armazene-as, uma por uma, no array
+    
+    // c) Imprima o array no console
+    
+    // d) Peça ao usuário que digite o **índice** de uma tarefa que ele já realizou: 0, 1 ou 2 
+    
+    // e) Remova da lista o item de índice que o usuário escolheu.
+    
+    // f) Imprima o array no console
+
+const arrayVazia = []
+listaDeTarefas = arrayVazia 
+const tarefa1 = prompt('Qual atividade você precisa realizar hoje? 1 de 3')
+const tarefa2 = prompt('Qual atividade você precisa realizar hoje? 2 de 3')
+const tarefa3 = prompt('Qual atividade você precisa realizar hoje? 3 de 3')
+listaDeTarefas.push(tarefa1)
+listaDeTarefas.push(tarefa2)
+listaDeTarefas.push(tarefa3)
+console.log(listaDeTarefas)
+
+const indiceRealizado = prompt('Qual índice de tarefa você já fez? 0, 1 ou 2')
+const ab = indiceRealizado
+listaDeTarefas.splice(ab,1)
+console.log(listaDeTarefas)
+
