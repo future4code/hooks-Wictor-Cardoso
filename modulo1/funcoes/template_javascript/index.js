@@ -81,7 +81,7 @@
     }
     console.log(O resultado da soma é: ${somarDuasEntradas()})
 
-    b) Faça uma função que recebe 2 números e retorne um booleano que informa se o primeiro número é **maior ou igual** ao segundo.
+    // b) Faça uma função que recebe 2 números e retorne um booleano que informa se o primeiro número é **maior ou igual** ao segundo.
     
     function compararDuasEntradas() {
         const numero0 = Number(prompt("Digite um número"))
@@ -91,7 +91,7 @@
     }
     compararDuasEntradas()
 
-    c) Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não
+    // c) Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não
     
     function compararDuasEntradas() {
         const numero = Number(prompt("Digite um número"))        
@@ -100,23 +100,24 @@
     }
     compararDuasEntradas()
 
-    d) Faça uma função que recebe uma mensagem (`string`) como parâmetro e imprima o tamanho dessa mensagem, juntamente com uma versão dela em letras maiúsculas.
+    // // d) Faça uma função que recebe uma mensagem (`string`) como parâmetro e imprima o tamanho dessa mensagem, juntamente com uma versão dela em letras maiúsculas.
     
     function textoUpper(){
       const mensagem = prompt("Digite uma frase")
-      return mensagem.length()
-      return mensagem.toUpperCase()
+      console.log(mensagem.toUpperCase(), mensagem.length)    
     }    
-    console.log(textoUpper())
+    textoUpper()
 
   
 
 // 3. Crie uma função para cada uma das operações básicas (soma, subtração, multiplicação e divisão). Em seguida, peça para o usuário inserir dois números e **chame** essas 4 funções com esses valores inputados pelo usuário sendo o argumento. Por fim, mostre no console o resultado das operações:
 
+function operacoesBase(){
 const number01 = Number(prompt("Digite um número"))
 const number02 = Number(prompt("Digite outro número"))
-    function somar(number01, number02){
-        return number01 + number02        
+    function somar(){
+        const soma = number01 + number02 
+        return soma       
     }
 
     function subtrair(){
@@ -135,7 +136,8 @@ const number02 = Number(prompt("Digite outro número"))
     }
 
     function chamarConsole(){
-    console.log(`O número 1 é: ${number01}
+    console.log(`
+    O número 1 é: ${number01}
     O número 2 é: ${number02}
     A soma dos dois números é: ${somar()}
     A subtração dos dois números é: ${subtrair()}
@@ -143,10 +145,5 @@ const number02 = Number(prompt("Digite outro número"))
     A divisão dos dois números é: ${dividir()}`)
     }
     console.log(chamarConsole())
-
-    function minhaFuncao(variavel) {
-    	return variavel * 5
-    }    
-    console.log(minhaFuncao(2))
-    console.log(minhaFuncao(10))
-//         
+}
+    operacoesBase()      
