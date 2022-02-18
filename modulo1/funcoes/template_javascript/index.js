@@ -98,59 +98,55 @@
 
 // 3. Crie uma função para cada uma das operações básicas (soma, subtração, multiplicação e divisão). Em seguida, peça para o usuário inserir dois números e **chame** essas 4 funções com esses valores inputados pelo usuário sendo o argumento. Por fim, mostre no console o resultado das operações:
 
-// function operacoesBase(){
-// const num1 = Number(prompt("Digite um número"))
-// const num2 = Number(prompt("Digite outro número"))
-//     function somar(num1, num2){
-//         return  num1 + num2                
-//     }
-
-//     function subtrair(num1, num2){
-//         return  num1 - num2       
-//     }
-
-//     function multiplicar(num1, num2){
-//         return num1 * num2       
-//     }
-
-//     function dividir(num1, num2){
-//         return num1 / num2       
-//     }
-
-//     function chamarConsole (){
-//     console.log(`O meu número 1 é: ${num1}, e o número 2 é: ${num2}`)
-//     console.log(`A soma dos dois números é:  ${somar}(num1, num2)`)
-//     console.log(`A subtração dos dois números é: `subtrair(num1, num2)
-//     console.log(`A soma dos dois números é: ` multiplicar(num1, num2))
-//     console.log(`A soma dos dois números é: ` dividir(num1, num2))
-//     }
-//     console.log(chamarConsole())
-// }
-//     operacoesBase()      
-// }
-
-    
     function somar(num1, num2){
-        return num1 + num2              
+        return  num1 + num2                
     }
 
     function subtrair(num1, num2){
-       return  num1 - num2        
+        return  num1 - num2       
     }
 
     function multiplicar(num1, num2){
-      return num1 * num2       
+        return num1 * num2       
     }
 
     function dividir(num1, num2){
-       return  num1 / num2        
+        return num1 / num2                     
     }
 
-    const fristNumber = Number(prompt("Digite um número: "))
-    const secondNumber = Number(prompt("Digite outro número: "))
+    const num1 = Number(prompt("Digite um número"))
+    const num2 = Number(prompt("Digite outro número"))
 
-    console.log(`Nùmeros inseridos: ${fristNumber}, ${secondNumber}`)
-    console.log("soma:", somar(fristNumber, secondNumber))
-    console.log("subtracao:", subtrair(fristNumber, secondNumber))
-    console.log("multiplicacao:", multiplicar(fristNumber, secondNumber))
-    console.log("divisao:", dividir(fristNumber, secondNumber))
+   
+    console.log(`O meu número 1 é: ${num1}, e o número 2 é: ${num2}`)
+    
+    console.log(somar(num1, num2))
+    console.log(subtrair(num1, num2))
+    console.log(multiplicar(num1, num2))
+    console.log(dividir(num1, num2))   
+
+       
+    // function somar(num1, num2){
+    //     return num1 + num2              
+    // }
+
+    // function subtrair(num1, num2){
+    //    return  num1 - num2        
+    // }
+
+    // function multiplicar(num1, num2){
+    //   return num1 * num2       
+    // }
+
+    // function dividir(num1, num2){
+    //    return  num1 / num2        
+    // }
+
+    // const fristNumber = Number(prompt("Digite um número: "))
+    // const secondNumber = Number(prompt("Digite outro número: "))
+
+    // console.log(`Nùmeros inseridos: ${fristNumber}, ${secondNumber}`)
+    // console.log("soma:", somar(fristNumber, secondNumber))
+    // console.log("subtracao:", subtrair(fristNumber, secondNumber))
+    // console.log("multiplicacao:", multiplicar(fristNumber, secondNumber))
+    // console.log("divisao:", dividir(fristNumber, secondNumber))
