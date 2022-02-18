@@ -59,91 +59,98 @@
     // Eu sou [NOME], tenho [IDADE] anos, moro em [ENDEREÇO] e sou [PROFISSÃO].
 
    
-    function caracteristica () {
-        const nome = (prompt('Qual o seu nome?'))
-        const idade = Number(prompt('Qual a sua idade?'))
-        const endereco = (prompt('Qual a sua cidade?'))
-        const profissao = (prompt('Qual a sua profissão?'))
-        console.log(String(`Eu sou ${nome}, tenho ${idade} anos, moro em ${endereco} e sou ${profissao}.`))
-        return
+    function caracteristica (nome, idade, endereco, profissao) {
+        console.log(`Eu sou ${nome}, tenho ${idade} anos, moro em ${endereco} e sou ${profissao}.`))        
     }
-    caracteristica()
+    caracteristica("Wictor", 28, "Sertânia", "estudante")
     
 // 2. Escreva as funções explicadas abaixo:
     
 //     a) Escreva uma função que receba 2 números como parâmetros, e, dentro da função, faça a soma das duas entradas e retorne o resultado. Invoque a função e imprima no console o resultado.
     
-    function somarDuasEntradas() {
-        const numero0 = Number(prompt("Digite um número"))
-        const numero1 = Number(prompt("Digite outro número"))
-        const soma = numero0 + numero1     
-        return soma
+    function somarDuasEntradas(num1, num2) {
+          return soma = num1 + num2
     }
-    console.log(O resultado da soma é: ${somarDuasEntradas()})
+    console.log(somarDuasEntradas(2, 3))
 
     // b) Faça uma função que recebe 2 números e retorne um booleano que informa se o primeiro número é **maior ou igual** ao segundo.
     
-    function compararDuasEntradas() {
-        const numero0 = Number(prompt("Digite um número"))
-        const numero1 = Number(prompt("Digite outro número"))
-        const booleano = numero0 > numero1     
-        return booleano   
+    function compararDuasEntradas(num1, num2) {
+      return num1 > num2
     }
-    compararDuasEntradas()
+    compararDuasEntradas(2, 3)
 
     // c) Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não
     
-    function compararDuasEntradas() {
-        const numero = Number(prompt("Digite um número"))        
-        const booleano = (numero % 2) === 0     
-        return booleano   
+    function compararDuasEntradas(booleano) {
+      return divisivel (booleano % 2) === 0    
     }
-    compararDuasEntradas()
+    compararDuasEntradas(22)
 
     // // d) Faça uma função que recebe uma mensagem (`string`) como parâmetro e imprima o tamanho dessa mensagem, juntamente com uma versão dela em letras maiúsculas.
     
-    function textoUpper(){
-      const mensagem = prompt("Digite uma frase")
-      console.log(mensagem.toUpperCase(), mensagem.length)    
+    function textoUpper(string){
+      return `O texto ${string.toUpperCase()} contem ${string.length} caracteres.`   
     }    
-    textoUpper()
+    console.log(textoUpper("Wictor Feitosa"))
 
   
 
 // 3. Crie uma função para cada uma das operações básicas (soma, subtração, multiplicação e divisão). Em seguida, peça para o usuário inserir dois números e **chame** essas 4 funções com esses valores inputados pelo usuário sendo o argumento. Por fim, mostre no console o resultado das operações:
 
-function operacoesBase(){
-const number01 = Number(prompt("Digite um número"))
-const number02 = Number(prompt("Digite outro número"))
-    function somar(){
-        const soma = number01 + number02 
-        return soma       
+// function operacoesBase(){
+// const num1 = Number(prompt("Digite um número"))
+// const num2 = Number(prompt("Digite outro número"))
+//     function somar(num1, num2){
+//         return  num1 + num2                
+//     }
+
+//     function subtrair(num1, num2){
+//         return  num1 - num2       
+//     }
+
+//     function multiplicar(num1, num2){
+//         return num1 * num2       
+//     }
+
+//     function dividir(num1, num2){
+//         return num1 / num2       
+//     }
+
+//     function chamarConsole (){
+//     console.log(`O meu número 1 é: ${num1}, e o número 2 é: ${num2}`)
+//     console.log(`A soma dos dois números é:  ${somar}(num1, num2)`)
+//     console.log(`A subtração dos dois números é: `subtrair(num1, num2)
+//     console.log(`A soma dos dois números é: ` multiplicar(num1, num2))
+//     console.log(`A soma dos dois números é: ` dividir(num1, num2))
+//     }
+//     console.log(chamarConsole())
+// }
+//     operacoesBase()      
+// }
+
+    
+    function somar(num1, num2){
+        return num1 + num2              
     }
 
-    function subtrair(){
-        const subtracao = number01 - number02
-        return subtracao
+    function subtrair(num1, num2){
+       return  num1 - num2        
     }
 
-    function multiplicar(){
-        const multiplicacao = number01 * number02
-        return multiplicacao
+    function multiplicar(num1, num2){
+      return num1 * num2       
     }
 
-    function dividir(){
-        const divisao = number01 / number02
-        return divisao
+    function dividir(num1, num2){
+       return  num1 / num2        
     }
 
-    function chamarConsole(){
-    console.log(`
-    O número 1 é: ${number01}
-    O número 2 é: ${number02}
-    A soma dos dois números é: ${somar()}
-    A subtração dos dois números é: ${subtrair()}
-    A multiplicação dos dois números é: ${multiplicar()}
-    A divisão dos dois números é: ${dividir()}`)
-    }
-    console.log(chamarConsole())
-}
-    operacoesBase()      
+    const fristNumber = Number(prompt("Digite um número: "))
+    const secondNumber = Number(prompt("Digite outro número: "))
+
+    console.log(`Nùmeros inseridos: ${fristNumber}, ${secondNumber}`)
+    console.log("soma:", somar(fristNumber, secondNumber))
+    console.log("subtracao:", subtrair(fristNumber, secondNumber))
+    console.log("multiplicacao:", multiplicar(fristNumber, secondNumber))
+    console.log("divisao:", dividir(fristNumber, secondNumber))
