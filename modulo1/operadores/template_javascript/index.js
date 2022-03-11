@@ -38,8 +38,8 @@
 let idade = Number(prompt("Qual a sua idade?"))
 let idadeAmigo = Number(prompt("Qual a idade do seu melhor amigo(a)?")) 
 let maior = idade > idadeAmigo
-let diferenca = (idade - idadeAmigo) * -1 
-console.log("Sua idade é maior do que a do seu amigo?", maior, diferenca) 
+let diferenca = (idade - idadeAmigo)*-1 
+console.log(`Sua idade é maior do que a do seu amigo? ${maior}, ${diferenca}`) 
 
 2.
 let numeroPar = Number(prompt("Insira um número par"))
@@ -53,7 +53,7 @@ let idadeEmAnos = Number(prompt("Qual a sua idade em anos?"))
 let idadeEmMeses = idadeEmAnos * 12
 let idadeEmDias = idadeEmAnos * 365
 let idadeEmHoras = (24 * 365) * idadeEmAnos
-console.log("Um total de", idadeEmMeses, "meses", idadeEmDias, "dias", "e", idadeEmHoras, "em horas") 
+console.log(`Um total de ${idadeEmMeses} meses, ${idadeEmDias} dias, e ${idadeEmHoras}, em horas`) 
 
 4.
 let numero1 = Number(prompt("Digite um número qualquer inteiro"))
@@ -63,7 +63,7 @@ let numeroIgual = numero1 === numero2
 let numeroDivisivel = (numero1 % numero2) === 0
 let numeroDivisivel2 = (numero2 % numero1) === 0
 
-console.log("O primeiro número é maior que o segundo?", numeroMaior, "primeiro número:", numero1, "segundo número:", numero2)
-console.log("O primeiro numero é igual ao segundo?", numeroIgual, "primeiro número:", numero1, "segundo número:", numero2)
-console.log("O primeiro numero é divisível pelo segundo?", numeroDivisivel, "primeiro número:", numero1, "segundo número:", numero2)
-console.log("O segundo numero é divisível pelo primeiro?", numeroDivisivel2, "segundo número:", numero2, "primeiro número:", numero1)
+console.log(`O primeiro número é maior que o segundo? ${numeroMaior}, primeiro número:${numero1}, segundo número:${numero2}`)
+console.log(`O primeiro numero é igual ao segundo? ${numeroIgual}, primeiro número:${numero1}, segundo número:${numero2}`)
+console.log(`O primeiro numero é divisível pelo segundo? ${numeroDivisivel}, primeiro número:${numero1}, segundo número:${numero2}`)
+console.log(`O segundo numero é divisível pelo primeiro? ${numeroDivisivel2}, segundo número:${numero2}, primeiro número:${numero1}`)
