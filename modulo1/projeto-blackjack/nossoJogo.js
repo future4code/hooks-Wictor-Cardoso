@@ -11,12 +11,29 @@
  * 
  * 
  */
-   console.log("Boas vindas ao jogo de Balckjack")
-    if(confirm("Quer iniciar uma rodada?")) {
-      const carta = comprarCarta();
-      console.log(carta.texto)
-      console.log(carta.valor)
-      
-   } else {
-      console.log("O jogo acabou")
+console.log("Boas vindas ao jogo de Balckjack")
+if (confirm("Quer iniciar uma rodada?")) {
+   const cartaUmJogador = comprarCarta();
+   const cartaDoisJogador = comprarCarta();
+   const cartaUmComputador = comprarCarta();
+   const cartaDoisComputador = comprarCarta();
+   const somaJogador = cartaUmJogador.valor + cartaDoisJogador.valor
+   const somaComputador = cartaUmComputador.valor + cartaDoisComputador.valor
+   console.log(`Usuário cartas - ${cartaUmJogador.texto} ${cartaDoisJogador.texto} - pontuação ${somaJogador}`)
+   console.log(`Computador cartas - ${cartaUmComputador.texto} ${cartaDoisComputador.texto} - pontuação ${somaComputador}`)
+
+   if (somaJogador > somaComputador) {
+      console.log("O Usuário ganhou!")
    }
+   else if (somaJogador === somaComputador) {
+      console.log("Empate!")
+   } else if
+      (somaJogador < somaComputador) {
+      console.log("O computador ganhou!")
+   }
+
+
+
+} else {
+   console.log("O jogo acabou")
+}
