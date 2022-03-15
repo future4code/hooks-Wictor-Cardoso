@@ -1,0 +1,9 @@
+Exercícios de fixação do conhecimento
+
+1: Ter atenção no enunciado (entender bem o que se é pedido)
+2: Retirar informações relevantes (ver o que é realmente importante, descartando todo o resto)
+3: Pensar entradas e saídas (assimilar quais dados entram e quais saem)
+4: Fazer esquema visual (ou escrever um texto passo a passo do como pensa resolver a questão)
+5: Criar código feio (não se atentar a produtividade, elegância ou formatação, apenas fazer com que o código funcione)
+6: Testar força-bruta (fazer o código rodar a todo custo rsrsr)
+7: Refatorar (seria a parte final.. deixar tudo bonitinho)
