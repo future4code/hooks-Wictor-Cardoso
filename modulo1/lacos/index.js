@@ -12,8 +12,13 @@ R. Está repetindo uma ação por 5x, mas não entendi exatamente...
 const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
 for (let numero of lista) {
   if (numero > 18) {
+
+		console.log(numero)
+	}
+
     console.log(numero)
   }
+
 }
 
 a) O que vai ser impresso no console?
@@ -44,12 +49,72 @@ while(quantidadeAtual < quantidadeTotal){
     
     c) Por fim, imprima o array com os nomes dos bichinhos no console*/
 
+    
+=======
+
 let arrayVazia = []
+
 // let animal = Number(prompt("Quantos bichos de estimação você tem?"))
 // if (animal === 0){
 //     console.log("Que pena! Você pode adotar um pet!")
 // } else {
 //     for(let i = 0; i < animal; i++){
+
+//     let guardarNome = prompt("Digite o nome do seu pet")
+//     let arr = [guardarNome]
+//     console.log(arr)     
+//     }       
+//   }
+
+  /*2. Considere que você tenha acesso a um `array`  (chamado de 'array original') que é composto somente de números. Baseando-se nisso, crie uma função para cada um dos itens abaixo, realizando as operações pedidas:*/
+    arrayOriginal = [12, 21, 34, 43, 90, 221, 1116, 8, 54, 33]
+  /*a) Escreva um programa que **imprime** cada um dos valores do array original.*/
+//   function imprimirArray(array) {
+//       for(let num of array){
+//           console.log(num)
+//       }      
+//   }
+//   imprimirArray(arrayOriginal)
+
+  /*b) Escreva um programa que **imprime** cada um dos valores do array original divididos por 10*/
+//   function arrayPorDez(array){
+//       for(let num of array){
+//           dividir = num / 10
+//           console.log(dividir)
+//       }
+//   }
+//   arrayPorDez(arrayOriginal)
+  
+  /*c) Escreva um programa que **crie** um novo array contendo, somente, os números pares do array original e **imprima** esse novo array*/
+//   function arrayPar(pares) {
+//       for (let index of pares){
+//           if(index % 2 === 0)
+//           console.log(index)
+//       }             
+//   }
+//    arrayPar(arrayOriginal)
+
+  /*d) Escreva um programa que **crie** um novo array contendo strings, da seguinte forma: "O elemento do índex `i` é: `numero`". Depois, **imprima** este novo array.*/
+//   function novoArray(params) {
+//       for(let i = 0; i<params.length; i++){
+// console.log(`O elemento do index ${i} é o número ${params[i]}`)
+//       }
+//   }
+//   novoArray(arrayOriginal)
+  
+  /*e) Escreva um programa que imprima no console o maior e o menor números contidos no array original*/
+
+
+function maiorEMenor(params){
+  for (let i = 0; i < params.length; i++){
+    if (i > params) {
+        params = i        
+    console.log(i)
+} else if (i < params){
+        params = i
+    console.log(i)}
+}
+=======
 //     let listaDeAnimais = prompt("Digite o nome do seu pet")  
 //     arrayVazia.push(listaDeAnimais.toUpperCase())    
 //     }    
@@ -108,5 +173,6 @@ function maiorEMenor(params) {
       console.log(i)
     }
   }
+
 }
 maiorEMenor(arrayOriginal)
