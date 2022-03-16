@@ -29,11 +29,15 @@ function retornaNumerosPares(array) {
    return arrPar
 }
 
-
-
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-
+   let arrPar = []
+   for (let i of array) {
+      if ((i % 2) === 0) {
+         arrPar.push(i**2)         
+      }      
+   }
+   return arrPar
 }
 
 // EXERCÍCIO 06
