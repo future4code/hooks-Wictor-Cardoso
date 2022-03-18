@@ -54,24 +54,30 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
       maiorNumero = num1
       menorNumero = num2
 
-   } else{    
+   } else {
       maiorNumero = num2
       menorNumero = num1
    }
 
    const maiorDivisivelPorMenor = maiorNumero % menorNumero === 0
    const diferenca = maiorNumero - menorNumero
-   return{
+
+   return {
       maiorNumero: maiorNumero,
       maiorDivisivelPorMenor: maiorDivisivelPorMenor,
       diferenca: diferenca
    }
-   
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-
+   let arrPar = []  
+   for (let i = 0 ; i <= ((n*2)-2); i++) {
+      if ((i % 2) === 0) {
+         arrPar.push(i)
+      }
+   }
+   return arrPar
 }
 
 // EXERCÍCIO 09
