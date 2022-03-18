@@ -96,7 +96,7 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
    array.sort((a, b) => b - a);
-   array = [array[1], array[array.length-2]];
+   array = [array[1], array[array.length - 2]];
    return array
 }
 
@@ -106,19 +106,29 @@ function retornaChamadaDeFilme(filme) {
 }
 
 // EXERCÍCIO 12
-function retornaPessoaAnonimizada(pessoa) {   
-		pessoa.nome = "ANÔNIMO"
-      return pessoa
+function retornaPessoaAnonimizada(pessoa) {
+   pessoa.nome = "ANÔNIMO"
+   return pessoa
 }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-
+   const livrePass = pessoas.filter(pessoa => {
+      if (pessoa.altura > 1.5 && pessoa.idade < 60 && pessoa.idade > 14) {
+         return pessoa
+      }
+   })
+  return livrePass
 }
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-
+   const noPass = pessoas.filter(member => {
+      if (member.altura <= 1.5 || member.idade >= 60 || member.idade <= 14) {
+         return member
+      }
+   })
+  return noPass
 }
 
 // EXERCÍCIO 14
