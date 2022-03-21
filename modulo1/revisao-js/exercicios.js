@@ -118,7 +118,7 @@ function retornaPessoasAutorizadas(pessoas) {
          return pessoa
       }
    })
-  return livrePass
+   return livrePass
 }
 
 // EXERCÍCIO 13B
@@ -128,17 +128,20 @@ function retornaPessoasNaoAutorizadas(pessoas) {
          return member
       }
    })
-  return noPass
+   return noPass
 }
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
-
+   //essa questão eu vi a resolução, mas quis copia-la aqui
+   //tentei fazer por conta própria e por hora não saiu, vou tentar durante essa semana recorrente.
 }
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-
+   consultas.sort();
+   return consultas
+   //aqui pensei em utilizar o sort no objeto "nome:" mas fiquei consufo e não consegui até o momento.
 }
 
 // EXERCÍCIO 15B
