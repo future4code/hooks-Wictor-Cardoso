@@ -4,65 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Controle de Estoque</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <title>Estoque</title>
   </head>
   <body>
-    <div>
-      <p>Nome da lojinha</p>
-    </div>
-
-    <div>
+    <div class="global">
+    <div class="links">
       <a href="index.html">Página Inicial</a>
       <a href="ctrl-estoque.html">Controle de Estoque</a>
       <a href="add-produto.html">Adicionar Produto</a>
       <a href="funcionarios.html">Funcionários</a>
     </div>
 
-    <h2>Controle de Estoque</h2>
+    <div class="controle-nome-loja">
+      <p>Nome da lojinha</p>
+    </div>
 
-    <table>
-      <tr>
+    <h2 class="controle-controle">Controle de Estoque</h2>
+
+    <table class="estoque-table">
+      <tr class="tr-titulo">
         <th>Foto</th>
         <th>Descrição</th>
         <th>Preço (R$)</th>
         <th>Quantidade disponível</th>
       </tr>
 
-      <tr>
-        <td><img style="width: 25px" src="img/camisa.jpg" alt="Camisa masculina" /></td>
+      <tr class="tr-camisa">
+        <td><img class="camisa" src="img/camisa.jpg" alt="Camisa masculina" /></td>
         <td>Camisa masculina</td>
         <td>29,99R$</td>
-        <td>122</td>
+        <td class="estoque-quantidade">122</td>
       </tr>
 
-      <tr>
-        <td><img style="width: 25px" src="img/caneca.jpg" alt="Caneca" /></td>
+      <tr class="tr-caneca">
+        <td><img class="caneca" src="img/caneca.jpg" alt="Caneca" /></td>
         <td>Caneca</td>
         <td>11,90R$</td>
-        <td>89</td>
+        <td class="estoque-quantidade">89</td>
       </tr>
 
-      <tr>
-        <td><img style="width: 25px" src="img/bone.jpg" alt="Boné" /></td>
+      <tr class="tr-bone">
+        <td><img class="bone" src="img/bone.jpg" alt="Boné" /></td>
         <td>Boné</td>
         <td>19,99R$</td>
-        <td>234</td>
+        <td class="estoque-quantidade">234</td>
       </tr>
 
-      <tr>
-        <td><img style="width: 25px" src="img/short.jpg" alt="Short feminino" /></td>
+      <tr class="tr-short">
+        <td><img class="short" src="img/short.jpg" alt="Short feminino" /></td>
         <td>Short feminino</td>
         <td>35,50R$</td>
-        <td>145</td>
+        <td class="estoque-quantidade">145</td>
       </tr>
 
       <!-- Crie mais uma linha desta tabela abaixo \/ -->
-      <tr>
-        <td><img style="width: 25px" src="img/vale.jpg" alt="Vale" /></td>
+      <tr class="tr-vale">
+        <td><img class="vale" src="img/vale.jpg" alt="Vale" /></td>
         <td>Vale</td>
         <td>50,00R$</td>
-        <td>999</td>
+        <td class="estoque-quantidade">999</td>
       </tr>
     </table>
+  </div>
   </body>
 </html>
