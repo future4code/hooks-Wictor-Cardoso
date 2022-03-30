@@ -20,10 +20,9 @@ h2 {
 input {
   height: 20px;
   width: 500px;
+  border: 0;
+  outline: 0;
   border-bottom: 3px solid #000;
-  border-top: none;
-  border-right: none;
-  border-left: none;
 }
 
 button:focus {
@@ -59,6 +58,7 @@ div img {
 .container {
   height: 500px;
   text-align: center;
+  list-style-position: inside;
 }
 
 .icone {
@@ -74,11 +74,11 @@ div img {
 #container-de-descricao {
   background-color: #2274a5;
   color: white;
-  padding-top: 15vw;
+  padding-top: 8vw;
 }
 
 #container-de-descricao > ol {
-  padding: 15px 0px;
+  padding: 15px 0px;  
 }
 
 #container-para-comprar {
@@ -104,7 +104,8 @@ div:last-child {
 
 table {
   width: 60%;
-  text-align: center;
+  text-align: center;  
+  margin: 0 auto;
 }
 
 td img {
@@ -116,7 +117,7 @@ td button {
   width: 150px;
   height: 30px;
   border-radius: 5px;
-  color: black;
+  color: black;  
 }
 
 td button:hover {
@@ -129,7 +130,7 @@ td button:after {
 
 .container-do-search {
   margin-top: 20px;
-  height: 100px;  
+  height: 100px;   
   }
 
 #back-button {
@@ -139,9 +140,14 @@ td button:after {
   border: 1px solid black;
   border-radius: 5px;
   font-size: 10px;
-  color: black;
+  color: black;  
 }
 
 #back-button:hover {
   background-color: #635a3d;
+}
+
+.bem-bonitinho{
+    text-align: center;
+    padding-top: 40px;
 }
