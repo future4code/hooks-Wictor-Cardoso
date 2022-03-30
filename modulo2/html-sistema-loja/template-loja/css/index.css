@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 20%;
+  margin-left: 30%;
+}
+.global{
+    background-color: rgb(1,33,22)
+}
+.express {
+  color: yellow;
+  padding-left: 20%;
+}
+
+.links {
+ opacity: 0.8;
+ padding-left: 5%;
+ padding-right: 3%;
+ background-color: rgb(204, 17, 17);
+}
+
+.form-group {
+  color: blue;
+  width: 100%;
+}
+
+.img-insta {
+    opacity: 0.9;
+  width: 8%;
+  object-fit: contain;
+  
+}
+.img-facebook {
+    opacity: 0.9;
+    padding-right: 10%;
+    padding-left: 10%;
+  width: 7%;
+  object-fit: contain;
+}
+.img-whatsapp {
+    opacity: 0.9;
+    padding-right: 10%;
+    padding-left: 10vh 10vw;
+  width:11%;
+  object-fit: contain;
+}
+
+.rodape{
+    margin-top: 3%;
+    padding-bottom: 4%;
+    margin-left: 35%;
+}
+.redes{
+    margin-left: 30%;
+}
+
+.header{
+    padding-left: 17%;
+}
+
+.controle-nome-loja{
+    margin-left: 40%;
+}
+.controle-controle{
+    margin-left: 30%;
+}
+
+.texto-lorem{
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.estoque-table{
+    margin-right: 15%;
+}
+
+.camisa {
+   margin-left:41%; 
+  width: 15%;
+}
+.caneca {
+    margin-left:41%; 
+  width: 15%;
+}
+
+.short {
+    margin-left:41%;  
+  width: 15%;
+}
+
+.bone {
+    margin-left:41%; 
+  width: 15%;
+}
+
+.vale {
+    margin-left:41%; 
+  width: 15%;
+  padding-bottom: 4%;
+}
+
+.estoque-quantidade{
+    padding-left: 8%;
+}
+
+.add-express{
+    margin-left:40%;
+}
+
+.add-adicionar-produto{
+    margin-left: 31.5%;
+}
+
+.add-link-para-foto{
+    margin-left:25%;
+}
+
+.add-descricao-do-produto{
+    margin-left:15.4%;
+}
+.add-preco{
+    margin-left: 24.6%;
+}
+
+.add-quantidade-disponivel{
+    margin-left: 13.9%;
+}
+
+.form-add{
+    margin-left:42%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+
+
+
+.funcionarios-nome-da-loja{
+    margin-left: 40%;
+}
+
+.funcionarios-nomes{
+    margin-left: 37%;
+}
+
+.lista-global-funcionarios{
+    margin-left: 39%;
+}
+
+.funcionario-marcos{
+    padding-bottom: 4%;
+}
