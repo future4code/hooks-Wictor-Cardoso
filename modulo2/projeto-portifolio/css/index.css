@@ -1,0 +1,76 @@
+/* geral */
+* {
+    margin: 0;
+    padding: 0;  
+    font-size: 15px;   
+  }
+
+  header p {
+      background-color: #303134;
+      font-size:xx-large;
+      font: bolder;
+      display: flex;
+      justify-content: center;
+     padding: 10px;
+  }
+
+  header img {
+    display: flex;
+    justify-content: center;
+      width: 200px;  
+      padding: 10px;    
+      margin: 3px auto;
+  }
+
+  main {
+      background-color: #303134;
+padding: 20px;
+
+  }
+
+  main p{
+    display: flex;
+   text-align: center;    
+  }
+
+.intituicao{    
+    display: flex;
+    justify-content: center; 
+    padding: 10px;    
+}
+
+.intituicao p{
+    font-size: large;
+    font-weight:bold;
+}
+
+.labenu-uca{   
+    background-color: #303134; 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    
+}
+
+.labenu-uca a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.em-breve{
+    display: flex;
+    justify-content: space-around;
+}
