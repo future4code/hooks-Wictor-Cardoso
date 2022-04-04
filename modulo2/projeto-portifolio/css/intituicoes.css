@@ -50,25 +50,25 @@ nav div p {
 }
 
 footer {
-    position:absolute;
-    bottom:10px;
-    left: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
 }
 
 /* voltar */
 
 body .buttom-voltar {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    padding: 10px; 
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
 }
-button{
-    padding: 10px 25px 10px 25px;
-    border-radius: 7px;
+button {
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
 }
 
-button:hover{
-    background-color: rgba(255, 228, 196, 0.87);
-    color: rgb(40, 51, 201);
+button:hover {
+  background-color: rgba(255, 228, 196, 0.87);
+  color: rgb(40, 51, 201);
 }

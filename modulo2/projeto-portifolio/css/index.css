@@ -6,7 +6,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /* parte de cima */
 header {
   padding: 10px;
@@ -72,13 +71,8 @@ main p {
 
 /* roda pé */
 
-
-
 footer {
-    position:absolute;
-    bottom:10px;
-    left: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
 }
-
-
-

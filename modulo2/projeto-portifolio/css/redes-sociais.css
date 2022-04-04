@@ -45,15 +45,14 @@ nav div p {
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-nav div p:hover{
-    background-color: rgba(0, 255, 255, 0.63);
-    border-radius: 5px;
-    color: rgba(0, 0, 0, 0.897);
+nav div p:hover {
+  background-color: rgba(0, 255, 255, 0.63);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.897);
 }
-
 
 /* voltar */
 
