@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* em breve */
+
+
+nav ul,
+li {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav div {
+display: flex;
+justify-content: space-around;
+}
+
+/* texto do em breve */
+
+  nav p{
+     font-size: large;
+  }
+
+  /* quadrados do embreve img */
+
+  nav ul li img {
+    background-color: black;
+      width: 290px;
+      height: auto;  
+      padding: 5px; 
+      margin-top: 110px;  
+      margin-bottom: 15px; 
+      border-radius: 15px;
+  }
+
+  nav div p{
+      text-decoration: line-through;
+  }
+
+
+/* voltar */
+
+body .buttom-voltar {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 10px; 
+}
+button{
+    padding: 10px 25px 10px 25px;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: rgba(255, 228, 196, 0.87);
+    color: rgb(40, 51, 201);
+}
+
+/* footer */
+
+footer {
+    position:absolute;
+    bottom:10px;
+    left: 15px;
+}
