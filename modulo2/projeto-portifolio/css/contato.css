@@ -1,0 +1,47 @@
+/* geral */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body */
+
+body ul {
+  margin-top: 230px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+input {
+  outline-color: rgba(150, 179, 19, 0.514);
+}
+
+/* voltar */
+
+body .buttom-voltar {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+button {
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: rgba(255, 228, 196, 0.87);
+  color: rgb(40, 51, 201);
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}

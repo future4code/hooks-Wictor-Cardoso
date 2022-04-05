@@ -1,0 +1,78 @@
+/* geral */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* parte de cima */
+header {
+  padding: 10px;
+}
+
+header p {
+  font-size: xx-large;
+  font: bolder;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+header img {
+  display: flex;
+  background-color: rgb(17, 17, 59);
+  border-radius: 110px;
+  justify-content: center;
+  width: 200px;
+  padding: 5px;
+  margin: 150px auto 10px auto;
+}
+
+/* menu */
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  background-color: rgb(17, 17, 59);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+nav ul:hover {
+  background-color: rgba(0, 255, 255, 0.63);
+  border-radius: 5px;
+}
+
+nav a:hover {
+  color: rgba(0, 0, 0, 0.897);
+}
+/* texto central */
+
+main p {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+/* roda pé */
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}

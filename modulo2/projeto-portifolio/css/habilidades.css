@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* habilidades */
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+section img {
+  width: 600px;
+  height: auto;
+}
+
+/* texto abaixo da foto */
+
+body p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+/* voltar */
+
+body .buttom-voltar {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+button {
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: rgba(255, 228, 196, 0.87);
+  color: rgb(40, 51, 201);
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}

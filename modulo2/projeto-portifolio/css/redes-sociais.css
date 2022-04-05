@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* links alinhamento */
+
+nav ul,
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* links tamanho */
+
+nav img {
+  width: 300px;
+  height: auto;
+  margin-top: 60px;
+  background-color: white;
+}
+
+nav .insta {
+  width: 355px;
+}
+
+/* nomes abaixo da img */
+
+nav div,
+p {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 7px;
+}
+
+nav div p {
+  background-color: rgb(14, 14, 107);
+  width: 250px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav div p:hover {
+  background-color: rgba(0, 255, 255, 0.63);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.897);
+}
+
+/* voltar */
+
+body .buttom-voltar {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+button {
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: rgba(255, 228, 196, 0.87);
+  color: rgb(40, 51, 201);
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
