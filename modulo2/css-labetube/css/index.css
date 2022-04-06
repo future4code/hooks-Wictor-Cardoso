@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* cabeçalho */
+
+.futuretube-busca {
+  background-color: rgb(237, 133, 68);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+  font-weight: bolder;
+}
+.futuretube-busca > p {
+  font-size: 2rem;
+}
+
+input {
+  padding: 0.6rem;
+}
+
+/* cabeçalho fim */
+
+/* meio */
+
+.conteiner-video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 0.9rem;
+}
+
+section video {
+  width: 100%;
+}
+
+.conteiner-video > div {
+  margin: 0.28rem;
+  border: 0.15em solid rgb(163, 235, 165);
+}
+
+/* .conteiner-video {  
+    display: flex;
+  padding: 0.9rem;
+}
+
+section video {
+    width: 100%;       
+}
+
+.conteiner-video > div {
+ margin: 0.28rem;
+ border: 0.15em solid rgb(163, 235, 165);
+} */
+
+/* footer */
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(237, 133, 68);
+  padding: 2rem;
+  font-size: larger;
+}
