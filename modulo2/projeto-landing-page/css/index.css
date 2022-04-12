@@ -1,0 +1,112 @@
+/* condições gerais */
+
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+/* parte de cima da página */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 2vw;
+  
+ 
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  list-style: none;  
+}
+
+header img {
+  width: 5vw;
+  border-radius: 1vw;
+}
+
+header a {
+  text-decoration: none;
+  padding: 5px;
+  text-transform: uppercase;
+  color: rgb(27, 0, 0);
+  font-weight: bolder;
+  
+}
+
+/* efeitos de cima da página */
+
+header:hover {
+  background-color: #323841;
+  transition-duration: .5s;  
+  border-radius: 1vw;
+  box-shadow: 0 3px rgb(27, 0, 0);
+ 
+}
+
+header a:hover {
+  color: white; 
+  transition-duration: .5s;
+  }
+/* primeiro bloco após o cabeçalho */
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 2vw;
+  
+}
+
+
+main ul {
+    display: flex;     
+    list-style: none;
+}
+
+main li {
+border: 1px solid rgb(19, 15, 15);
+background-color: #8c8c8f;
+ padding: 1vw 3vw;
+ margin-bottom: 0.5vw;
+ margin-right: 1vw;
+ border-radius: 1vw;
+}
+
+main li:hover{
+    color: white;
+    background-color: #323841;
+    border-radius: 1vw;
+    box-shadow: 0 3px rgb(27, 0, 0);
+    transition-duration: .5s;
+}
+
+main h1 {
+    margin-bottom: 0.5vw;
+}
+
+main p {
+    margin-bottom: 0.5vw;
+}
+
+main a {
+    text-decoration: none;
+}
+
+
+main img {
+    width: auto;
+    height: 38vh;  
+}
+
+main li {
+
+}
+
