@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Etapa1 from "./components/Etapa1";
+import Etapa2 from "./components/Etapa2";
+import Etapa3 from "./components/Etapa3";
+import Final from "./components/Final";
+import{ H3, Paragrafo, Total, Button} from "./components/Style"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+state = {
+  etapa: 1,
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <Total>
+        <Button>Próxima etapa</Button>
+      </Total>
+    );
+  }
 }
 
 export default App;
