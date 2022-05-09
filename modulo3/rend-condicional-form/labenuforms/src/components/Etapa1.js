@@ -19,8 +19,7 @@ class Etapa1 extends React.Component {
           <option value="Ensino médio completo">Ensino médio completo</option>
           <option value="Ensino superio incompleto">Ensino superior incompleto</option>
           <option value="Ensino superio completo">Ensino superior completo</option>
-        </select>
-        <Button>Próxima etapa</Button>
+        </select>        
       </Total>
     </>;
   }

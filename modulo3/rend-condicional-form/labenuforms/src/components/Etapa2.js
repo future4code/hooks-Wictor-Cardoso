@@ -9,8 +9,7 @@ class Etapa2 extends React.Component {
        <Paragrafo>5. Qual curso?</Paragrafo>
        <input></input>
        <Paragrafo>6. Qual a unidade de ensino?</Paragrafo>
-       <input></input>
-       <Button>Próxima etapa</Button>
+       <input></input>      
      </Total>
       );
     }

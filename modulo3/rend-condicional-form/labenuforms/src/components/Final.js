@@ -7,7 +7,6 @@ class Final extends React.Component {
         <Total>
         <H3>O FORMULÁRIO ACABOU</H3>
        <Paragrafo>Muito obrigado por participar! Entraremos em contato!</Paragrafo>
-
      </Total>
       );
     }
