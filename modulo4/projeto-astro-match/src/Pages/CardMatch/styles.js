@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const CardConteiner = styled.div`
-  background-color: white;
-  width: 400px;
-  height: 600px;
+position: fixed;
+  background-color: red;
+  width: 450px;
+  height: 630px;
   color: white;
   border: 3px solid white;
   border-radius: 10px;
@@ -13,19 +14,22 @@ export const CardConteiner = styled.div`
   align-items: center;
 `;
 
-export const Card = styled.div`
-  background-color: black;
-  width: 360px;
-  height: 450px;
-  /* margin-top: 10px; */
-  color: white;
-  border-bottom: 3px solid red;
-  border-right: 3px solid red;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center; //alinha horizontalmente
-  align-items: center; //alinha verticalmente
-`;
+// export const Card = styled.div`
+//   /* background-color: black; */
+//   width: 360px;
+//   height: 450px;
+//   /* margin-top: 10px; */
+//   /* color: black; */
+//   border-bottom: 2px inset black;
+//   border-right: 2px inset black;
+//   /* box-shadow: 10px 10px 10px 1px black; */
+//   border-radius: 10px;
+//   display: flex;
+//   margin-left: 4px;
+//   /* margin: 0 auto; */
+//   justify-content: center; //alinha horizontalmente
+//   /* align-items: center; //alinha verticalmente */
+// `;
 
 export const LikeRight = styled.div`
   /* width: 50%; */
@@ -36,7 +40,7 @@ export const LikeRight = styled.div`
   /* padding-top:15px; */
   align-items: center;
   /* justify-items: space-between; */
-  margin-left: 35%;
+  margin-left: 30px;
   /* padding-right: 15%; */
   /* margin: 0 auto; */
 `;
@@ -50,9 +54,9 @@ export const CenterTitle = styled.div`
   /* padding-top:15px; */
   /* align-items: center; */
   /* justify-items: space-between; */
-  padding-left: 15%;
+  padding-left: 25%;
   /* padding-right: 15%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 `;
 
 export const Div = styled.div`
@@ -73,23 +77,25 @@ export const Div = styled.div`
 
 export const DivButton = styled.div`
   display: flex;
-  width: 80%;
+  width: 70%;
   justify-items: space-between;
 `;
 
 export const ButtonCard = styled.button`
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  border-radius: 56px;
+  /* display: inline-block; */
+  width: 80px;
+  height: 50px;
+  /* border-radius: 5px;   */
 `;
 
 export const ButtonLikes = styled.button`
-  /* margin-left: 90px; */
-  /* display: inline-block;
-width: 56px;
-height: 56px; */
-  /* border-radius: 56px; */
+width: 70px;
+height: 25px;
+  /* padding-left: 70px; */
+   /* display: inline-block; */
+/* width: 56px; */
+/* height: 56px;  */
+  /* border-radius: 6px; */
   
 `;
 
@@ -99,7 +105,31 @@ margin-bottom: 10px;
 ` 
 
 export const Img = styled.img`
-width: 15vw;
+width: 140px;
 height: auto;
-
+border-radius: 5px;
+margin-bottom: 10px;
 ` 
+
+export const ImgProfile = styled.img`
+width: 390px ;
+height: 420px;
+border-radius: 5px;
+/* width: 360px; */
+  /* height: 450px; */
+  /* margin-top: 10px; */
+  /* color: black; */
+  border-bottom: 2px inset black;
+  border-right: 2px inset black;
+`
+
+export const BioCard = styled.div`
+display: flex;
+text-align: center
+`
+
+export const DivAline = styled.div`
+display: flex;
+text-align: center;
+padding-left: 10px;
+`
