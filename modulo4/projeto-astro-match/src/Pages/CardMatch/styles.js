@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const CardConteiner = styled.div`
 position: fixed;
-  background-color: red;
+  /* background-color: red; */
   width: 450px;
-  height: 630px;
+  height: 650px;
   color: white;
   border: 3px solid white;
   border-radius: 10px;
@@ -85,6 +85,7 @@ export const ButtonCard = styled.button`
   /* display: inline-block; */
   width: 80px;
   height: 50px;
+  margin-bottom: 10px;
   /* border-radius: 5px;   */
 `;
 
@@ -109,6 +110,7 @@ width: 140px;
 height: auto;
 border-radius: 5px;
 margin-bottom: 10px;
+margin-top: 10px;
 ` 
 
 export const ImgProfile = styled.img`

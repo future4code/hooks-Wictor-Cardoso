@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import {
   CardConteiner,
   Card,
@@ -14,12 +15,12 @@ import {
   DivAline,
 } from "./styles";
 
+
 import astromatch from "./img/astromatch.png";
 
-export default function CardMatch(props) {
+const CardMatch = (props)=>{
   // GetProfileToChoose
-
-  // props.perfil.map((element, position, array) => {
+  // props.profile.map((element, position, array) => {
   //   <div key={element.id}>
   //     <li>{element}</li>
   //     </div>;
@@ -47,9 +48,11 @@ export default function CardMatch(props) {
           <ButtonCard onClick={() => props.getProfileToChoose()}>x</ButtonCard>
         </Div>
         <Div>
-          <ButtonCard onClick={() => props.getProfileToChoose()}>❤️</ButtonCard>
+          <ButtonCard>❤️</ButtonCard>
         </Div>
       </DivButton>
     </CardConteiner>
   );
 }
+
+export default CardMatch
