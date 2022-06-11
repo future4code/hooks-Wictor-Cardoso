@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import {
   CardConteiner,
   Card,
@@ -45,10 +45,10 @@ const CardMatch = (props)=>{
       
       <DivButton>
         <Div>
-          <ButtonCard onClick={() => props.getProfileToChoose()}>x</ButtonCard>
+          <ButtonCard onClick={() => props.choosePersonUnlike()}>x</ButtonCard>
         </Div>
         <Div>
-          <ButtonCard>❤️</ButtonCard>
+          <ButtonCard onClick={()=> props.choosePersonLike()}>❤️</ButtonCard>
         </Div>
       </DivButton>
     </CardConteiner>

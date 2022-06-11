@@ -127,7 +127,9 @@ border-radius: 5px;
 
 export const BioCard = styled.div`
 display: flex;
-text-align: center
+text-align: center;
+margin-left: 5px;
+margin-right: 5px;
 `
 
 export const DivAline = styled.div`
