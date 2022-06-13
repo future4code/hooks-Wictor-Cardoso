@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CardConteiner = styled.div`
 position: fixed;
-  /* background-color: red; */
+  background-color: red;
   width: 450px;
   height: 650px;
   color: white;

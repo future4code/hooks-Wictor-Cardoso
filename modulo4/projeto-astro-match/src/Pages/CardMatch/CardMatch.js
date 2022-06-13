@@ -16,22 +16,21 @@ import {
 } from "./styles";
 
 
+
 import astromatch from "./img/astromatch.png";
 
 const CardMatch = (props)=>{
-  // GetProfileToChoose
-  // props.profile.map((element, position, array) => {
-  //   <div key={element.id}>
-  //     <li>{element}</li>
-  //     </div>;
-  // });
+
+  const goToLikePage = (event) => {
+    props.setPage ('Like');
+  };
 
   return (
     <CardConteiner>
       <CenterTitle>
         <Img src={astromatch} />
         <LikeRight>
-          <ButtonLikes>likes</ButtonLikes>
+          <ButtonLikes onClick={goToLikePage}>likes</ButtonLikes>
         </LikeRight>
       </CenterTitle>
       <Hr />
@@ -45,6 +44,7 @@ const CardMatch = (props)=>{
       
       <DivButton>
         <Div>
+          {/* <button onClick={} value={}></button> */}
           <ButtonCard onClick={() => props.choosePersonUnlike()}>x</ButtonCard>
         </Div>
         <Div>
