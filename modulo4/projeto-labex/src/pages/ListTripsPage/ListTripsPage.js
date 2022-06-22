@@ -1,11 +1,19 @@
 import React, { useState, useEffect } from "react";
-import { useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default ListTripsPage = () => {
+export default function  ListTripsPage () {
+  const navigate = useNavigate()
+  const ToApplicationFormPage = ()=>{
+    navigate('/aplication')
+  }
+  const ToBack = ()=>{
+    navigate(-1)
+  }
   return(
     <div>
       <p>ListTripsPage</p>
-      <button>Voltar</button>
+      <button onClick={()=>ToApplicationFormPage()}>ApplicationFormPage</button>
+      <button onClick={()=>ToBack()}>Voltar</button>
     </div>
     );
 };

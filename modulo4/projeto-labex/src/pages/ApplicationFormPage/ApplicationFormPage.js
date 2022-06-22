@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default ApplicationFormPage = () => {
+export  default function  ApplicationFormPage  ()  {
+  const navigate = useNavigate()
+  const ToBack = ()=>{
+    navigate(-1)
+  };
+  
   return(
     <div>
       <p>ApplicationFormPage</p>
-      <button>Voltar</button>
+      <button onClick={()=>ToBack()}>Voltar</button>
     </div>
     );
 };

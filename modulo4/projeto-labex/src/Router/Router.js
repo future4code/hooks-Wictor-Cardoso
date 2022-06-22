@@ -6,22 +6,21 @@ import LoginPage from "../pages/LoginPage/LoginPage";
 import AdminHomePage from "../pages/AdminHomePage/AdminHomePage";
 import TripDetailsPage from "../pages/TripDetailsPage/TripDetailsPage";
 import CreateTripsPage from "../pages/CreateTripsPage/CreateTripsPage";
+import Error from "../pages/ErrorPage/Error";
 
-export default Router = () =>{
+export default function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<HomePage />} />
-        <Route path="admin" element={<AdminHomePage />} />
-        <Route path="aplication" element={<ApplicationFormPage />} />
-        <Route path="create" element={<CreateTripsPage />} />
-        <Route path="list" element={<ListTripsPage />} />
-        <Route path="login" element={<LoginPage />} />
-        <Route path="trip" element={<TripDetailsPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/admin" element={<AdminHomePage />} />
+        <Route path="/aplication" element={<ApplicationFormPage />} />
+        <Route path="/create" element={<CreateTripsPage />} />
+        <Route path="/list" element={<ListTripsPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/trip" element={<TripDetailsPage />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
-

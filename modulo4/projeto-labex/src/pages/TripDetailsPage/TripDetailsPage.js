@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default TripDetailsPage = () => {
+export default function TripDetailsPage () {
+  const navigate = useNavigate()
+  const ToBack = ()=>{
+    navigate(-1)
+  };
   return(
     <div>
       <p>TripDetailsPage</p>
-      <button>Voltar</button>
+      <button onClick={()=>ToBack()}>Voltar</button>
     </div>
     );
 };
