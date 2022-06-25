@@ -13,12 +13,12 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/admin" element={<AdminHomePage />} />
-        <Route path="/aplication" element={<ApplicationFormPage />} />
-        <Route path="/create" element={<CreateTripsPage />} />
-        <Route path="/list" element={<ListTripsPage />} />
+        <Route path="/trips/aplication" element={<ApplicationFormPage />} />
+        <Route path="/trips/list" element={<ListTripsPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/trip" element={<TripDetailsPage />} />
+        <Route path="/admin/trips/list" element={<AdminHomePage />} />
+        <Route path="/admin/trips/create" element={<CreateTripsPage />} />
+        <Route path="/admin/trips/:id" element={<TripDetailsPage />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

@@ -1,15 +1,30 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
-export default function TripDetailsPage () {
-  const navigate = useNavigate()
-  const ToBack = ()=>{
-    navigate(-1)
+
+export default function TripDetailsPage(props) {
+
+ 
+
+  const navigate = useNavigate();
+  const ToBack = () => {
+    navigate(-1);
   };
-  return(
+
+
+
+
+  return (
     <div>
       <p>TripDetailsPage</p>
-      <button onClick={()=>ToBack()}>Voltar</button>
+      <p>
+        Para o administrador ver o detalhe de uma viagem específica, bem como os
+        candidatos que aplicaram para ela
+      </p>
+      {/* <button onClick={() => getTrips()}>getTrips</button> */}
+      <button onClick={() => ToBack()}>Voltar</button>
+     
     </div>
-    );
-};
+  );
+}

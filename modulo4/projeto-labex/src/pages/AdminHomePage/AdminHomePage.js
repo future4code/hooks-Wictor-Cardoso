@@ -7,11 +7,11 @@ export  default function AdminHomePage  ()  {
   const navigate = useNavigate()
   
 const ToTripDetailsPage = () =>{
-  navigate('/trip')
+  navigate('/admin/trips/:id')
 }
 
 const ToCreateTripsPage = () =>{
-  navigate('/create')
+  navigate('/admin/trips/create')
 }
 
 const ToBack = ()=>{
@@ -21,8 +21,9 @@ const ToBack = ()=>{
 return (
     <div>
       <p>AdminHomePage</p>
+      <p> Para o administrador ver a lista de viagens e poder deletá-las ou acessar o detalhe de cada uma delas</p>
       <button onClick={()=> ToCreateTripsPage()}>CreateTripsPage</button>
-      <button onClick={()=> ToTripDetailsPage()}>CreateTripsPage</button>
+      <button onClick={()=> ToTripDetailsPage()}>TripDetailsPage</button>
       <button onClick={()=>ToBack()}>Voltar</button>
     </div>
   );

@@ -12,6 +12,7 @@ export  default function  CreateTripsPage  ()  {
   return(
     <div>
       <p>ApplicationFormPage</p>
+      <p> Formulário para o administrador criar uma nova viagem</p>
       <button onClick={()=>ToBack()}>Voltar</button>
     </div>
     );
