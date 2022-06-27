@@ -13,8 +13,8 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/trips/aplication" element={<ApplicationFormPage />} />
         <Route path="/trips/list" element={<ListTripsPage />} />
+        <Route path="/trips/aplication" element={<ApplicationFormPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/admin/trips/list" element={<AdminHomePage />} />
         <Route path="/admin/trips/create" element={<CreateTripsPage />} />
