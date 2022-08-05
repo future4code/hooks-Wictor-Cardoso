@@ -1,0 +1,13 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":"node ./start.js"
+  },
+  "keywords": [],
+  "author": "Wictor Feitosa",
+  "license": "ISC"
+}
