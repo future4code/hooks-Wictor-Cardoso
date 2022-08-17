@@ -1,3 +1,4 @@
+
 function checaRenovacaoRG(anoAtual:number, anoNascimento:number, anoEmissao:number ): string {
     let idade = anoAtual - anoNascimento
     let tempoCarteira = anoAtual - anoEmissao
@@ -17,3 +18,34 @@ function checaRenovacaoRG(anoAtual:number, anoNascimento:number, anoEmissao:numb
    }
    
    console.log(checaRenovacaoRG(25, 2011, 2012))
+
+
+type Users = {
+    name: string ,
+    email: string,
+    role: ROLE,  
+}
+
+enum ROLE{
+    ADMIN="admin",
+    USER="user"
+}
+const usuarios: Users[] = [
+    {name: "Rogério", email: "roger@email.com", role: ROLE.USER},
+    {name: "Ademir", email: "ademir@email.com", role: ROLE.ADMIN},
+    {name: "Aline", email: "aline@email.com", role: ROLE.USER},
+    {name: "Jéssica", email: "jessica@email.com", role: ROLE.USER},  
+    {name: "Adilson", email: "adilson@email.com", role: ROLE.USER},  
+    {name: "Carina", email: "carina@email.com", role: ROLE.ADMIN}      
+] 
+
+const filterUsuarios = usuarios.filter((obj)=>{
+    if(obj.role === ROLE.ADMIN){
+        console.table(obj)
+    }else{
+        console.log("It not.")
+      }
+})
+
+console.log(filterUsuarios)
+
