@@ -1,3 +1,23 @@
+
+function comparaDoisNumeros(num1: number, num2:number): number {
+    let maiorNumero;
+    let menorNumero;
+  
+    if (num1 > num2) {
+      maiorNumero = num1;
+      menorNumero = num2;
+    } else {
+      maiorNumero = num2;
+      menorNumero = num1;
+    }
+  
+    const diferenca = maiorNumero - menorNumero;
+  
+    return diferenca 
+  }
+
+  console.log(comparaDoisNumeros(2, 4))
+
 enum SETOR {
 	MARKETING="marketing",
 	VENDAS="vendas",
@@ -30,5 +50,6 @@ const filterColaborador = colaboradores.filter((obj)=>{
 })
 
 console.log(filterColaborador)
+
 
 
