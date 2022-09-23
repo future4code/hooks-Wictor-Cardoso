@@ -1,6 +1,9 @@
 import express from "express";
 import cors from "cors";
 import { AddressInfo } from "net";
+import {v4 as uuidv4, v4} from "uuid"
+import connection from "./database/connection";
+import { Cadastro } from "./type";
 
 const app = express();
 
