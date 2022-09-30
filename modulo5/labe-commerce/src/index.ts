@@ -61,8 +61,8 @@ app.post("/products", async (req, res)=>{
       }
     
       await connection.raw(`
-      INSERT INTO labecommerce_users(id, name, email, password)
-      VALUES("${novoCadastro.id}", "${novoCadastro.name}", "${novoCadastro.email}", "${novoCadastro.password}")
+      INSERT INTO products(id, name, price, image_url)
+      VALUES("${novoCadastro.id}", "${novoCadastro.name}", "${novoCadastro.price}", "${novoCadastro.image_url}")
       `)
       
       res.status(200).send("Cadastro feito")
@@ -72,11 +72,11 @@ app.post("/products", async (req, res)=>{
     }
   })
 
-  app.get("/products", async (req, res)=>{
+app.get("/products", async (req, res)=>{
     let errorCode = 400
    try {
     const result = await connection.raw(`    
-    SELECT * FROM labecommerce_users;
+    SELECT * FROM labecommerce_products;
     `)
 
     res.status(200).send(result[0])
@@ -84,3 +84,4 @@ app.post("/products", async (req, res)=>{
     res.status(errorCode).send(error)
    } 
 })
+
