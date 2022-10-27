@@ -14,4 +14,14 @@ export class UserController {
             res.status(400).send(error.message)
         }
     }
+    async getAll(req: Request, res: Response){        
+        try {            
+            const userBusiness = new UserBusiness()
+            await userBusiness.getAll()
+
+            res.status(200).send("Ok")
+        } catch (error:any) {
+            res.status(400).send(error.message)
+        }
+    }
 }

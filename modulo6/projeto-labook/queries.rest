@@ -1,6 +1,6 @@
 -- Active: 1663896405430@@35.226.146.116@3306@hooks-4313684-wictor-cardoso
 ### Cadastro
-POST http://localhost:3003/users/signup
+POST http://localhost:3003/user/create
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
 }
 
 ### Buscar todos os cadastrados
-GET http://localhost:3003/users/list
+GET http://localhost:3003/user/all
 
 
 ### Criar post

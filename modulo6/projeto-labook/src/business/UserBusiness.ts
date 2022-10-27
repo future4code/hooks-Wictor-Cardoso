@@ -18,5 +18,10 @@ export class UserBusiness {
     const userDatabase = new UserDatabase()
     await userDatabase.create(user);
   }
+
+  async getAll(){
+    const userDatabase = new UserDatabase()
+    await userDatabase.getAll();
+  }
 }
 // BIBLIOTECA MOMENT

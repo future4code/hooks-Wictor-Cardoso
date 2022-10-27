@@ -7,4 +7,9 @@ export class UserDatabase extends BaseDatabase {
            user
         )
     }
+
+    public async getAll(){
+       const queryResult:any = await BaseDatabase.connection("labook_users").select()
+       return queryResult
+    }
 }

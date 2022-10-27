@@ -2,7 +2,7 @@ import { post } from "../types/post";
 import BaseDatabase from "./BaseDatabase";
 
 export class PostDatabase extends BaseDatabase {
-    public async post (post:post) {
+    public async create (post:post) {
         await BaseDatabase.connection("labook_posts").insert({
             // id: post.id,
             // photo: post.photo,
